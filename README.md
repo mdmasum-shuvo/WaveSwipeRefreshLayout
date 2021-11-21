@@ -15,7 +15,7 @@ Even if this works fine with API.13 or less, we support only for API.14 or more.
 <img src="./sc/sc3.png" width="200">
 
 ## Requirements
-Target Sdk Version : 21  
+Target Sdk Version : 30  
 Min Sdk Version : 14  
 
 ##How to use
@@ -28,7 +28,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6'
+  implement 'com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.7'
 }
 ```  
 
