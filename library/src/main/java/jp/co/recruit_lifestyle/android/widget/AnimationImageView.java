@@ -23,7 +23,7 @@ import android.widget.ImageView;
 /**
  * @author amyu
  */
-class AnimationImageView extends ImageView {
+class AnimationImageView extends androidx.appcompat.widget.AppCompatImageView {
 
   /**
    * AnimationのStartとEnd時にListenerにアレする

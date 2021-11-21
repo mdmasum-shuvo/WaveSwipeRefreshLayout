@@ -20,12 +20,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.animation.Interpolator;
 
-/**
- * @author amyu
- *
- * {@link WaveView#mDropBounceHorizontalAnimator} と {@link WaveView#mDropVertexAnimator} にセットするInterpolator
- * WavePullToRefresh/DropBounceInterpolator.gcxにグラフの詳細
- */
+
 public class DropBounceInterpolator implements Interpolator {
 
     public DropBounceInterpolator() {

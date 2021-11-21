@@ -21,6 +21,6 @@ android {
 }
 
 dependencies {
-  compile 'com.android.support:appcompat-v7:22.2.0'
-  compile 'com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6'
+  implementation 'androidx.appcompat:appcompat:1.0.0'
+  implementation project(path: ':library')
 }
